@@ -40,12 +40,3 @@ O núcleo da solução reside na classe `Cena` e no método `ConstruirCena`:
 | **Mover Objeto ('M')** | $O(N)$ | Remoção e re-inserção mantendo a ordem. |
 | **Espaço (Memória)** | $O(N)$ | Crescimento linear devido à memória auxiliar do *Merge Sort*. |
 
-## Como Compilar e Executar
-
-### Pré-requisitos
-* Compilador C++ (G++ ou Clang) compatível com C++11 ou superior.
-* Make (opcional, caso tenha Makefile).
-
-### Compilação
-```bash
-g++ -Wall -o occlusion_system main.cpp cena.cpp objeto.cpp

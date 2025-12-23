@@ -2,7 +2,7 @@
 
 Este projeto implementa um sistema robusto de descarte de objetos oclusos (*Occlusion Culling*) em **C++**, desenvolvido para otimizar o pipeline de renderização de jogos 2D. O sistema utiliza uma abordagem de varredura unidimensional (Scanline) combinada com ordenação por prioridade de profundidade para determinar eficientemente quais segmentos de objetos devem ser desenhados.
 
-## 📋 Sobre o Projeto
+## Sobre o Projeto
 
 Em motores de jogos, processar e renderizar objetos que estão escondidos atrás de outros é um desperdício de recursos computacionais. Este sistema resolve esse problema implementando um algoritmo que:
 1.  Recebe objetos com coordenadas 2D (X e Y) e profundidade.
